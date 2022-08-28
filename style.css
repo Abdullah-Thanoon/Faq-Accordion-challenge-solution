@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    padding: 0;
+    width: 65vw;
+    height: 68vh;
+    position: absolute;
+    top: 17vh;
+    left: 17vw;
+    background-color: white;
+    border-radius: 1.6rem;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -36rem -18.5rem;
+}
+
+p, h5 {
+    font-size: smaller;
+    margin: 0 5rem 0 1rem;
+}
+
+h2{
+    padding: 3rem 0 2rem 0;
+    font-weight: 700;
+    margin-left:1rem;
+}
+
+p {
+    display: none;
+    padding-top: 0.5rem;
+    overflow:hidden;
+    transition:max-height 0.3s ease-out;
+}
+
+h5 {
+    font-weight: 400;
+    padding: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+h5:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+hr{
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+
+.arrow {
+    float: right;
+}
+
+.para {
+    float: right;
+    padding-top: 1rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.image-wrapper-inner {
+    background-image: url(images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    height: 25rem;
+    background-position: -5rem 2rem;
+}
+
+.box {
+    position: absolute;
+    top: 38%;
+    left: -10.5%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
