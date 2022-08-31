@@ -1,4 +1,4 @@
-$('.section').click( function (params) {
+$('.section').click( function () {
     var a = this.nextElementSibling;
     console.log(a);
     var text = $('p',this).css('display');
