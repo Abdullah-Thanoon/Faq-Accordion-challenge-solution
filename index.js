@@ -1,4 +1,4 @@
-$('.section').on('click',function(){
+$('.section').click( function (params) {
     var a = this.nextElementSibling;
     console.log(a);
     var text = $('p',this).css('display');
@@ -10,4 +10,4 @@ $('.section').on('click',function(){
         $('p',this).css('display','none');
         $('h5',this).css('font-weight','400');
     }
-});
+    });
