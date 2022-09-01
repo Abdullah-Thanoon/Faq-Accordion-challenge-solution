@@ -95,6 +95,7 @@ hr{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
 
 @media screen and (max-height:960px) and (max-width: 420px) {
