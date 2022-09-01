@@ -89,13 +89,14 @@ hr{
 }
 
 .attribution { 
+    margin-top: 5rem;
     font-size: 11px; 
     text-align: center; 
+    text-decoration: none;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-    text-decoration: none;
 }
 
 @media screen and (max-height:960px) and (max-width: 420px) {
