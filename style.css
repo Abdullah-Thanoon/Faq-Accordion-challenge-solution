@@ -16,7 +16,7 @@ body {
 .container {
     padding: 0;
     width: 65vw;
-    height: 68vh;
+    height: 70vh;
     position: absolute;
     top: 17vh;
     left: 17vw;
@@ -89,14 +89,16 @@ hr{
 }
 
 .attribution { 
-    margin-top: 5rem;
     font-size: 11px; 
     text-align: center; 
-    text-decoration: none;
+    position: relative;
+    top: 7rem;
+    left: 15rem;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
 
 @media screen and (max-height:960px) and (max-width: 420px) {
