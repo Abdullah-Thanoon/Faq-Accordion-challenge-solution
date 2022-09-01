@@ -39,10 +39,10 @@ h2{
 }
 
 p {
-    display: none;
+    max-height: 0rem;
     padding-top: 0.5rem;
-    overflow:hidden;
-    transition:max-height 0.3s ease-out;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
 }
 
 h5 {
@@ -62,11 +62,11 @@ hr{
 
 .arrow {
     float: right;
+    transition: all 0.5s ease-in-out;
 }
 
 .para {
     float: right;
-    padding-top: 1rem;
     position: relative;
     bottom: 25rem;
 }
@@ -84,6 +84,10 @@ hr{
     left: -10.5%;
 }
 
+.woman {
+    display: none;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -91,4 +95,44 @@ hr{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-height:960px) and (max-width: 420px) {
+    .container{
+        width: 80vw;
+        left: 10vw;
+        background-position: 2.7rem 0rem;
+        background-image: url(images/bg-pattern-mobile.svg);
+    }
+
+    h2{
+        text-align: center;
+
+        font-size: xx-large;
+    }
+
+    .para {
+        position: relative;
+        bottom: 28rem;
+    }
+
+    h5, hr, p {
+        margin-right: 1rem;
+    }
+
+    .image-wrapper-inner{
+        background-image: none;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .woman{
+        width: 72%;
+        display: block;
+        position: relative;
+        bottom: 31.7rem;
+        left: 2.8rem;
+    }
 }
