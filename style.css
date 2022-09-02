@@ -141,4 +141,9 @@ hr{
         bottom: 31.7rem;
         left: 2.8rem;
     }
+    
+    .attribution{
+        top: -16rem;
+        left: 0rem;
+    }
 }
